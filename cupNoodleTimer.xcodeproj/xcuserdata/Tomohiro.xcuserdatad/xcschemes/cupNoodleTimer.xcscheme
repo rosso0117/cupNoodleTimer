@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B1291AB31C86CC8700CD81FB"
-               BuildableName = "mockDisapper.app"
-               BlueprintName = "mockDisapper"
-               ReferencedContainer = "container:mockDisapper.xcodeproj">
+               BuildableName = "cupNoodleTimer.app"
+               BlueprintName = "cupNoodleTimer"
+               ReferencedContainer = "container:cupNoodleTimer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,16 +33,16 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B1291AB31C86CC8700CD81FB"
-            BuildableName = "mockDisapper.app"
-            BlueprintName = "mockDisapper"
-            ReferencedContainer = "container:mockDisapper.xcodeproj">
+            BuildableName = "cupNoodleTimer.app"
+            BlueprintName = "cupNoodleTimer"
+            ReferencedContainer = "container:cupNoodleTimer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B1291AB31C86CC8700CD81FB"
-            BuildableName = "mockDisapper.app"
-            BlueprintName = "mockDisapper"
-            ReferencedContainer = "container:mockDisapper.xcodeproj">
+            BuildableName = "cupNoodleTimer.app"
+            BlueprintName = "cupNoodleTimer"
+            ReferencedContainer = "container:cupNoodleTimer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B1291AB31C86CC8700CD81FB"
-            BuildableName = "mockDisapper.app"
-            BlueprintName = "mockDisapper"
-            ReferencedContainer = "container:mockDisapper.xcodeproj">
+            BuildableName = "cupNoodleTimer.app"
+            BlueprintName = "cupNoodleTimer"
+            ReferencedContainer = "container:cupNoodleTimer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

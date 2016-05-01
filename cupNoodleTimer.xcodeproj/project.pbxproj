@@ -12,21 +12,23 @@
 		B1291ABD1C86CC8700CD81FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1291ABB1C86CC8700CD81FB /* Main.storyboard */; };
 		B1291ABF1C86CC8700CD81FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1291ABE1C86CC8700CD81FB /* Assets.xcassets */; };
 		B1291AC21C86CC8700CD81FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1291AC01C86CC8700CD81FB /* LaunchScreen.storyboard */; };
-		B1BE9B121C91BA4500088F5A /* mv.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B1BE9B111C91BA4500088F5A /* mv.mp3 */; };
+		B1BE9B121C91BA4500088F5A /* mockVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B1BE9B111C91BA4500088F5A /* mockVoice.mp3 */; };
 		B1BE9B141C91BA5500088F5A /* middle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B1BE9B131C91BA5500088F5A /* middle.mp3 */; };
+		B1BEE7231CD4EB9B009FA6D7 /* UIParts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BEE7221CD4EB9B009FA6D7 /* UIParts.swift */; };
 		B1DC97D51C9284AB001D4AE4 /* punch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B1DC97D41C9284AB001D4AE4 /* punch.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B1291AB41C86CC8700CD81FB /* mockDisapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mockDisapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1291AB41C86CC8700CD81FB /* cupNoodleTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cupNoodleTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1291AB71C86CC8700CD81FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1291AB91C86CC8700CD81FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1291ABC1C86CC8700CD81FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1291ABE1C86CC8700CD81FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1291AC11C86CC8700CD81FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1291AC31C86CC8700CD81FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1BE9B111C91BA4500088F5A /* mv.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mv.mp3; sourceTree = "<group>"; };
+		B1BE9B111C91BA4500088F5A /* mockVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mockVoice.mp3; sourceTree = "<group>"; };
 		B1BE9B131C91BA5500088F5A /* middle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = middle.mp3; sourceTree = "<group>"; };
+		B1BEE7221CD4EB9B009FA6D7 /* UIParts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIParts.swift; sourceTree = "<group>"; };
 		B1DC97D41C9284AB001D4AE4 /* punch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = punch.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +46,7 @@
 		B1291AAB1C86CC8700CD81FB = {
 			isa = PBXGroup;
 			children = (
-				B1291AB61C86CC8700CD81FB /* mockDisapper */,
+				B1291AB61C86CC8700CD81FB /* cupNoodleTimer */,
 				B1291AB51C86CC8700CD81FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,33 +54,34 @@
 		B1291AB51C86CC8700CD81FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1291AB41C86CC8700CD81FB /* mockDisapper.app */,
+				B1291AB41C86CC8700CD81FB /* cupNoodleTimer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B1291AB61C86CC8700CD81FB /* mockDisapper */ = {
+		B1291AB61C86CC8700CD81FB /* cupNoodleTimer */ = {
 			isa = PBXGroup;
 			children = (
 				B1291AB71C86CC8700CD81FB /* AppDelegate.swift */,
-				B1BE9B111C91BA4500088F5A /* mv.mp3 */,
+				B1BE9B111C91BA4500088F5A /* mockVoice.mp3 */,
 				B1DC97D41C9284AB001D4AE4 /* punch.mp3 */,
 				B1BE9B131C91BA5500088F5A /* middle.mp3 */,
 				B1291AB91C86CC8700CD81FB /* ViewController.swift */,
 				B1291ABB1C86CC8700CD81FB /* Main.storyboard */,
+				B1BEE7221CD4EB9B009FA6D7 /* UIParts.swift */,
 				B1291ABE1C86CC8700CD81FB /* Assets.xcassets */,
 				B1291AC01C86CC8700CD81FB /* LaunchScreen.storyboard */,
 				B1291AC31C86CC8700CD81FB /* Info.plist */,
 			);
-			path = mockDisapper;
+			path = cupNoodleTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B1291AB31C86CC8700CD81FB /* mockDisapper */ = {
+		B1291AB31C86CC8700CD81FB /* cupNoodleTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1291AC61C86CC8700CD81FB /* Build configuration list for PBXNativeTarget "mockDisapper" */;
+			buildConfigurationList = B1291AC61C86CC8700CD81FB /* Build configuration list for PBXNativeTarget "cupNoodleTimer" */;
 			buildPhases = (
 				B1291AB01C86CC8700CD81FB /* Sources */,
 				B1291AB11C86CC8700CD81FB /* Frameworks */,
@@ -88,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = mockDisapper;
+			name = cupNoodleTimer;
 			productName = mockDisapper;
-			productReference = B1291AB41C86CC8700CD81FB /* mockDisapper.app */;
+			productReference = B1291AB41C86CC8700CD81FB /* cupNoodleTimer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B1291AAF1C86CC8700CD81FB /* Build configuration list for PBXProject "mockDisapper" */;
+			buildConfigurationList = B1291AAF1C86CC8700CD81FB /* Build configuration list for PBXProject "cupNoodleTimer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -122,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1291AB31C86CC8700CD81FB /* mockDisapper */,
+				B1291AB31C86CC8700CD81FB /* cupNoodleTimer */,
 			);
 		};
 /* End PBXProject section */
@@ -137,7 +140,7 @@
 				B1BE9B141C91BA5500088F5A /* middle.mp3 in Resources */,
 				B1291ABF1C86CC8700CD81FB /* Assets.xcassets in Resources */,
 				B1291ABD1C86CC8700CD81FB /* Main.storyboard in Resources */,
-				B1BE9B121C91BA4500088F5A /* mv.mp3 in Resources */,
+				B1BE9B121C91BA4500088F5A /* mockVoice.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +153,7 @@
 			files = (
 				B1291ABA1C86CC8700CD81FB /* ViewController.swift in Sources */,
 				B1291AB81C86CC8700CD81FB /* AppDelegate.swift in Sources */,
+				B1BEE7231CD4EB9B009FA6D7 /* UIParts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +264,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = mockDisapper/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/cupNoodleTimer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = self.mockDisapper;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = self.cupNoodleTimer;
+				PRODUCT_NAME = cupNoodleTimer;
 			};
 			name = Debug;
 		};
@@ -271,17 +275,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = mockDisapper/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/cupNoodleTimer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = self.mockDisapper;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = self.cupNoodleTimer;
+				PRODUCT_NAME = cupNoodleTimer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B1291AAF1C86CC8700CD81FB /* Build configuration list for PBXProject "mockDisapper" */ = {
+		B1291AAF1C86CC8700CD81FB /* Build configuration list for PBXProject "cupNoodleTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1291AC41C86CC8700CD81FB /* Debug */,
@@ -290,7 +294,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1291AC61C86CC8700CD81FB /* Build configuration list for PBXNativeTarget "mockDisapper" */ = {
+		B1291AC61C86CC8700CD81FB /* Build configuration list for PBXNativeTarget "cupNoodleTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1291AC71C86CC8700CD81FB /* Debug */,
